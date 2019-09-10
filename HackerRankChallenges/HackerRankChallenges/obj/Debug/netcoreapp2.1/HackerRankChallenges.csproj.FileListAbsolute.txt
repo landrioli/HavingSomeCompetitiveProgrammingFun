@@ -1,0 +1,4 @@
+D:\Workspace\HavingSomeHackerrankFun\HackerRankChallenges\HackerRankChallenges\obj\Debug\netcoreapp2.1\HackerRankChallenges.csprojAssemblyReference.cache
+D:\Workspace\HavingSomeHackerrankFun\HackerRankChallenges\HackerRankChallenges\obj\Debug\netcoreapp2.1\HackerRankChallenges.csproj.CoreCompileInputs.cache
+D:\Workspace\HavingSomeHackerrankFun\HackerRankChallenges\HackerRankChallenges\obj\Debug\netcoreapp2.1\HackerRankChallenges.AssemblyInfoInputs.cache
+D:\Workspace\HavingSomeHackerrankFun\HackerRankChallenges\HackerRankChallenges\obj\Debug\netcoreapp2.1\HackerRankChallenges.AssemblyInfo.cs
