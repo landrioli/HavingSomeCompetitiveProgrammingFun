@@ -11,7 +11,6 @@ namespace HackerRankChallenges
 
         static void Main(string[] args)
         {
-            
         }
     }
 }

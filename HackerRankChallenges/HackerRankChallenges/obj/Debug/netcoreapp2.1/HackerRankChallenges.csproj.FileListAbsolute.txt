@@ -8,3 +8,4 @@ D:\Workspace\HavingSomeHackerrankFun\HackerRankChallenges\HackerRankChallenges\b
 D:\Workspace\HavingSomeHackerrankFun\HackerRankChallenges\HackerRankChallenges\bin\Debug\netcoreapp2.1\HackerRankChallenges.pdb
 D:\Workspace\HavingSomeHackerrankFun\HackerRankChallenges\HackerRankChallenges\obj\Debug\netcoreapp2.1\HackerRankChallenges.dll
 D:\Workspace\HavingSomeHackerrankFun\HackerRankChallenges\HackerRankChallenges\obj\Debug\netcoreapp2.1\HackerRankChallenges.pdb
+D:\Workspace\HavingSomeHackerrankFun\HackerRankChallenges\HackerRankChallenges\obj\Debug\netcoreapp2.1\HackerRankChallenges.csprojAssemblyReference.cache
