@@ -7,4 +7,8 @@
     <StartupObject />
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Practice\InterviewPreparationKit\DictionaryAndHashmaps\" />
+  </ItemGroup>
+
 </Project>
