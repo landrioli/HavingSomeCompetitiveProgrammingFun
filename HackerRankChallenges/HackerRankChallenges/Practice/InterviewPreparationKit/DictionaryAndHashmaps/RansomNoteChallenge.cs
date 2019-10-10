@@ -38,16 +38,28 @@ namespace HackerRankChallenges.Practice.InterviewPreparationKit.DictionaryAndHas
                 }
             }
 
+            var noteDic = new Dictionary<string, int>();
             for (int i = 0; i < note.Length; i++)
             {
-                int totalOcurrencies = 0;
-                magazineDic.TryGetValue(note[i], out totalOcurrencies);
-                if (totalOcurrencies == 0)
+                if (noteDic.ContainsKey(note[i]))
+                {
+                    noteDic[note[i]]++;
+                }
+                else
+                {
+                    noteDic.Add(note[i], 1);
+                }
+            }
+
+            foreach (var item in noteDic)
+            {
+                int totalMagazineOcurrencies = 0;
+                magazineDic.TryGetValue(item.Key, out totalMagazineOcurrencies);
+                if (totalMagazineOcurrencies < item.Value)
                 {
                     Console.WriteLine("No");
                     return;
                 }
-                magazineDic[note[i]]--;
             }
             Console.WriteLine("Yes");
         }
