@@ -1,12 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.IO;
 using System.Linq;
 using System.Text;
 
-namespace HackerRankChallenges
+namespace HackerRankChallenges.Practice.InterviewPreparationKit.DictionaryAndHashmaps
 {
-    public class Program
+    class RansomNoteChallenge
     {
         // First Attemps -> Your code did not execute within the time limits
         static void checkMagazine2(string[] magazine, string[] note)
@@ -22,6 +21,8 @@ namespace HackerRankChallenges
             }
             Console.WriteLine("Yes");
         }
+
+        //Improving perfomance 
         static void checkMagazine(string[] magazine, string[] note)
         {
             var magazineDic = new Dictionary<string, int>();
@@ -49,14 +50,6 @@ namespace HackerRankChallenges
                 magazineDic[note[i]]--;
             }
             Console.WriteLine("Yes");
-        }
-
-        static void Main(string[] args)
-        {
-            checkMagazine(new string[] { "a", "b", "a" }, new string[] { "a", "b", "a" });
-            checkMagazine(new string[] { "casa teste" }, new string[] { "casa" });
-            checkMagazine(new string[] { "two", "times", "three", "is", "not", "four" }, new string[] { "two", "times", "two", "is", "four" });
-            
         }
     }
 }

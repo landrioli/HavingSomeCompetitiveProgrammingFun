@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Practice\InterviewPreparationKit\DictionaryAndHashmaps\" />
+    <Folder Include="Practice\InterviewPreparationKit\Arrays\" />
   </ItemGroup>
 
 </Project>
