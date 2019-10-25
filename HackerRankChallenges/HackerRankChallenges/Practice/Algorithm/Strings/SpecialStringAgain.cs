@@ -16,7 +16,8 @@ namespace HackerRankChallenges.Practice.Algorithm.Strings
     {
 
         // Complete the substrCount function below.
-        // The number of possible substrings is !N. EX: abc = 3 => 3! => 3 + 2 + 1 = 6 substrings
+        // The number of possible substrings is EX: abc = 3 => 3! => 3 + 2 + 1 = 6 substrings => n(n+1)/2
+        // The number of possible combinations is EX: abcd = 2^N = 2^4 = 16
         // Brute force is not possible... So I will find all the ocurrencies and calculate how many substrings a can generate for the sequence ( repeats * (repeats + 1) / 2)
         static long substrCountBadPerf(int n, string s)
         {
