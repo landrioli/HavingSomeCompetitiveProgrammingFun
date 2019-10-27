@@ -15,7 +15,7 @@ namespace CCIChallenges.LinkedList
             int index = PrintKthToLast(head.Next, k) + 1;
             if (index == k)
             {
-                Console.WriteLine(k + "th to last node is " + head.Value);
+                Console.WriteLine(k + "th to last node is " + head.Data);
             }
             return index;
         }
