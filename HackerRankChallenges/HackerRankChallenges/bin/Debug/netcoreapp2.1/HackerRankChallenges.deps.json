@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v2.1": {
       "HackerRankChallenges/1.0.0": {
         "dependencies": {
-          "CCIChallenges": "1.0.0"
+          "CCIChallenges": "1.0.0",
+          "GeneralChallenges": "1.0.0"
         },
         "runtime": {
           "HackerRankChallenges.dll": {}
@@ -17,6 +18,11 @@
       "CCIChallenges/1.0.0": {
         "runtime": {
           "CCIChallenges.dll": {}
+        }
+      },
+      "GeneralChallenges/1.0.0": {
+        "runtime": {
+          "GeneralChallenges.dll": {}
         }
       }
     }
@@ -28,6 +34,11 @@
       "sha512": ""
     },
     "CCIChallenges/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GeneralChallenges/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

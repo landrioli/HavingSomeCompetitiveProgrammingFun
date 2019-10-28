@@ -207,26 +207,6 @@
         "build": {
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
-      },
-      "CCIChallenges/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.1",
-        "compile": {
-          "bin/placeholder/CCIChallenges.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/CCIChallenges.dll": {}
-        }
-      },
-      "GeneralChallenges/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.1",
-        "compile": {
-          "bin/placeholder/GeneralChallenges.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/GeneralChallenges.dll": {}
-        }
       }
     }
   },
@@ -700,22 +680,10 @@
         "netstandard.library.2.0.3.nupkg.sha512",
         "netstandard.library.nuspec"
       ]
-    },
-    "CCIChallenges/1.0.0": {
-      "type": "project",
-      "path": "../CCI/CCIChallenges.csproj",
-      "msbuildProject": "../CCI/CCIChallenges.csproj"
-    },
-    "GeneralChallenges/1.0.0": {
-      "type": "project",
-      "path": "../GeneralChallenges/GeneralChallenges.csproj",
-      "msbuildProject": "../GeneralChallenges/GeneralChallenges.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
-      "CCIChallenges >= 1.0.0",
-      "GeneralChallenges >= 1.0.0",
       "Microsoft.NETCore.App >= 2.1.0"
     ]
   },
@@ -726,11 +694,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Workspace\\HavingSomeHackerrankFun\\HackerRankChallenges\\HackerRankChallenges\\HackerRankChallenges.csproj",
-      "projectName": "HackerRankChallenges",
-      "projectPath": "D:\\Workspace\\HavingSomeHackerrankFun\\HackerRankChallenges\\HackerRankChallenges\\HackerRankChallenges.csproj",
+      "projectUniqueName": "D:\\Workspace\\HavingSomeHackerrankFun\\HackerRankChallenges\\GeneralChallenges\\GeneralChallenges.csproj",
+      "projectName": "GeneralChallenges",
+      "projectPath": "D:\\Workspace\\HavingSomeHackerrankFun\\HackerRankChallenges\\GeneralChallenges\\GeneralChallenges.csproj",
       "packagesPath": "C:\\Users\\leand\\.nuget\\packages\\",
-      "outputPath": "D:\\Workspace\\HavingSomeHackerrankFun\\HackerRankChallenges\\HackerRankChallenges\\obj\\",
+      "outputPath": "D:\\Workspace\\HavingSomeHackerrankFun\\HackerRankChallenges\\GeneralChallenges\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -748,14 +716,7 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
-          "projectReferences": {
-            "D:\\Workspace\\HavingSomeHackerrankFun\\HackerRankChallenges\\CCI\\CCIChallenges.csproj": {
-              "projectPath": "D:\\Workspace\\HavingSomeHackerrankFun\\HackerRankChallenges\\CCI\\CCIChallenges.csproj"
-            },
-            "D:\\Workspace\\HavingSomeHackerrankFun\\HackerRankChallenges\\GeneralChallenges\\GeneralChallenges.csproj": {
-              "projectPath": "D:\\Workspace\\HavingSomeHackerrankFun\\HackerRankChallenges\\GeneralChallenges\\GeneralChallenges.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -768,6 +729,7 @@
       "netcoreapp2.1": {
         "dependencies": {
           "Microsoft.NETCore.App": {
+            "suppressParent": "All",
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true

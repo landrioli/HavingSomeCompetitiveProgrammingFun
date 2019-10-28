@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CCI\CCIChallenges.csproj" />
+    <ProjectReference Include="..\GeneralChallenges\GeneralChallenges.csproj" />
   </ItemGroup>
 
 </Project>

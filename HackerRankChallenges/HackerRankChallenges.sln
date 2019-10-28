@@ -5,7 +5,9 @@ VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HackerRankChallenges", "HackerRankChallenges\HackerRankChallenges.csproj", "{10C6232A-AEB9-407A-AD5F-0EB99578992F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CCIChallenges", "CCI\CCIChallenges.csproj", "{3DDE44DA-1E34-4876-8BB5-736C91855128}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CCIChallenges", "CCI\CCIChallenges.csproj", "{3DDE44DA-1E34-4876-8BB5-736C91855128}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeneralChallenges", "GeneralChallenges\GeneralChallenges.csproj", "{4DD382C1-E02F-4E9E-9287-374988A6E3CB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{3DDE44DA-1E34-4876-8BB5-736C91855128}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3DDE44DA-1E34-4876-8BB5-736C91855128}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3DDE44DA-1E34-4876-8BB5-736C91855128}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DD382C1-E02F-4E9E-9287-374988A6E3CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DD382C1-E02F-4E9E-9287-374988A6E3CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DD382C1-E02F-4E9E-9287-374988A6E3CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DD382C1-E02F-4E9E-9287-374988A6E3CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
