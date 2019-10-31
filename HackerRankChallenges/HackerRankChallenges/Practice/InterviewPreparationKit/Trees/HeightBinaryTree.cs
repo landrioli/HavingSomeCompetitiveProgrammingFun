@@ -19,7 +19,21 @@ namespace TestConsole
                 data = item;
             }
         }
-
+        
+        //Improviment in sintax
+        public static int height(Node root, int currentCounter)
+        {
+            if (root == null)
+            {
+                return -1;
+            }
+            height(root.left, currentCounter + 1);
+            height(root.right, currentCounter + 1);
+            biggestHeightValue = Math.Max(biggestHeightValue, currentCounter);
+            return biggestHeightValue;
+        }
+        
+        //First version
         public static int MaxDepth(Node node)
         {
             if (node == null)
