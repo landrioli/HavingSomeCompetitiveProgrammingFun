@@ -14,4 +14,16 @@ namespace CCIChallenges.BinaryTree
         public TreeNode RightNode { get; set; }
         public int Data { get; set; }
     }
+
+    public class TreeNodeWithParent
+    {
+        public TreeNodeWithParent(int data)
+        {
+            this.Data = data;
+        }
+        public TreeNodeWithParent ParentNode { get; set; }
+        public TreeNodeWithParent LeftNode { get; set; }
+        public TreeNodeWithParent RightNode { get; set; }
+        public int Data { get; set; }
+    }
 }

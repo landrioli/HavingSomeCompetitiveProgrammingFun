@@ -19,7 +19,7 @@ namespace TestConsole
                 data = item;
             }
         }
-        
+        static int biggestHeightValue;
         //Improviment in sintax
         public static int height(Node root, int currentCounter)
         {

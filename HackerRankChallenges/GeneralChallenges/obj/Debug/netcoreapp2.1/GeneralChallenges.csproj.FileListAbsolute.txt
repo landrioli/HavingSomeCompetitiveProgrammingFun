@@ -1,9 +1,8 @@
-D:\Workspace\HavingSomeHackerrankFun\HackerRankChallenges\GeneralChallenges\obj\Debug\netcoreapp2.1\GeneralChallenges.csprojAssemblyReference.cache
-D:\Workspace\HavingSomeHackerrankFun\HackerRankChallenges\GeneralChallenges\obj\Debug\netcoreapp2.1\GeneralChallenges.csproj.CoreCompileInputs.cache
-D:\Workspace\HavingSomeHackerrankFun\HackerRankChallenges\GeneralChallenges\obj\Debug\netcoreapp2.1\GeneralChallenges.AssemblyInfoInputs.cache
-D:\Workspace\HavingSomeHackerrankFun\HackerRankChallenges\GeneralChallenges\obj\Debug\netcoreapp2.1\GeneralChallenges.AssemblyInfo.cs
 D:\Workspace\HavingSomeHackerrankFun\HackerRankChallenges\GeneralChallenges\bin\Debug\netcoreapp2.1\GeneralChallenges.deps.json
 D:\Workspace\HavingSomeHackerrankFun\HackerRankChallenges\GeneralChallenges\bin\Debug\netcoreapp2.1\GeneralChallenges.dll
 D:\Workspace\HavingSomeHackerrankFun\HackerRankChallenges\GeneralChallenges\bin\Debug\netcoreapp2.1\GeneralChallenges.pdb
+D:\Workspace\HavingSomeHackerrankFun\HackerRankChallenges\GeneralChallenges\obj\Debug\netcoreapp2.1\GeneralChallenges.csproj.CoreCompileInputs.cache
+D:\Workspace\HavingSomeHackerrankFun\HackerRankChallenges\GeneralChallenges\obj\Debug\netcoreapp2.1\GeneralChallenges.AssemblyInfoInputs.cache
+D:\Workspace\HavingSomeHackerrankFun\HackerRankChallenges\GeneralChallenges\obj\Debug\netcoreapp2.1\GeneralChallenges.AssemblyInfo.cs
 D:\Workspace\HavingSomeHackerrankFun\HackerRankChallenges\GeneralChallenges\obj\Debug\netcoreapp2.1\GeneralChallenges.dll
 D:\Workspace\HavingSomeHackerrankFun\HackerRankChallenges\GeneralChallenges\obj\Debug\netcoreapp2.1\GeneralChallenges.pdb
