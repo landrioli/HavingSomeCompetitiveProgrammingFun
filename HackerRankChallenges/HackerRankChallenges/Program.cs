@@ -4,6 +4,7 @@ using CCIChallenges.BinaryTree;
 using CCIChallenges.Graph;
 using CCIChallenges.LinkedList;
 using CCIChallenges.Stack;
+using CCIChallenges.Tree;
 using GeneralChallenges;
 using HackerRankChallenges.Practice.InterviewPreparationKit.QueueAndStack;
 using System;
@@ -67,8 +68,7 @@ namespace HackerRankChallenges
             //node14.ParentNode = node12;
             //node22.ParentNode = node20;
             //var result = InOrderTransverseSuccessor.GetInOrderSuccessor(node14);
-
-            BuildInOrder.Main();
+            HuffmanDecodingTree.Main();
         }
     }
 }
