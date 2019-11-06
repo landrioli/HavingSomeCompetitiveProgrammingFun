@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CCIChallenges.Common;
+using System;
 using System.Collections.Generic;
 using System.Text;
 

@@ -9,7 +9,8 @@
       "HackerRankChallenges/1.0.0": {
         "dependencies": {
           "CCIChallenges": "1.0.0",
-          "GeneralChallenges": "1.0.0"
+          "GeneralChallenges": "1.0.0",
+          "LeetCodeChallenges": "1.0.0"
         },
         "runtime": {
           "HackerRankChallenges.dll": {}
@@ -23,6 +24,11 @@
       "GeneralChallenges/1.0.0": {
         "runtime": {
           "GeneralChallenges.dll": {}
+        }
+      },
+      "LeetCodeChallenges/1.0.0": {
+        "runtime": {
+          "LeetCodeChallenges.dll": {}
         }
       }
     }
@@ -39,6 +45,11 @@
       "sha512": ""
     },
     "GeneralChallenges/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "LeetCodeChallenges/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

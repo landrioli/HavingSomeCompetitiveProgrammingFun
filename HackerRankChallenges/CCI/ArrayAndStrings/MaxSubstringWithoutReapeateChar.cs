@@ -43,6 +43,7 @@ namespace CCIChallenges.ArrayAndStrings
             {
                 if (map.ContainsKey(s[j]))
                 {
+                    //Here we are jumping the index i instead of increment it little by litte as the first approach
                     i = Math.Max(map[s[j]], i);
                 }
                 ans = Math.Max(ans, j - i + 1);

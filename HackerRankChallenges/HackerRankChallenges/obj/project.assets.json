@@ -227,6 +227,16 @@
         "runtime": {
           "bin/placeholder/GeneralChallenges.dll": {}
         }
+      },
+      "LeetCodeChallenges/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "compile": {
+          "bin/placeholder/LeetCodeChallenges.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LeetCodeChallenges.dll": {}
+        }
       }
     }
   },
@@ -710,12 +720,18 @@
       "type": "project",
       "path": "../GeneralChallenges/GeneralChallenges.csproj",
       "msbuildProject": "../GeneralChallenges/GeneralChallenges.csproj"
+    },
+    "LeetCodeChallenges/1.0.0": {
+      "type": "project",
+      "path": "../LeetCodeChallenges/LeetCodeChallenges.csproj",
+      "msbuildProject": "../LeetCodeChallenges/LeetCodeChallenges.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
       "CCIChallenges >= 1.0.0",
       "GeneralChallenges >= 1.0.0",
+      "LeetCodeChallenges >= 1.0.0",
       "Microsoft.NETCore.App >= 2.1.0"
     ]
   },
@@ -754,6 +770,9 @@
             },
             "D:\\Workspace\\HavingSomeHackerrankFun\\HackerRankChallenges\\GeneralChallenges\\GeneralChallenges.csproj": {
               "projectPath": "D:\\Workspace\\HavingSomeHackerrankFun\\HackerRankChallenges\\GeneralChallenges\\GeneralChallenges.csproj"
+            },
+            "D:\\Workspace\\HavingSomeHackerrankFun\\HackerRankChallenges\\LeetCodeChallenges\\LeetCodeChallenges.csproj": {
+              "projectPath": "D:\\Workspace\\HavingSomeHackerrankFun\\HackerRankChallenges\\LeetCodeChallenges\\LeetCodeChallenges.csproj"
             }
           }
         }

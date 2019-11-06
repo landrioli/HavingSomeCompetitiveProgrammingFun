@@ -3,10 +3,12 @@ using CCIChallenges.ArrayAndStrings;
 using CCIChallenges.BinaryTree;
 using CCIChallenges.Graph;
 using CCIChallenges.LinkedList;
+using CCIChallenges.MathAndPuzzles;
 using CCIChallenges.Stack;
 using CCIChallenges.Tree;
 using GeneralChallenges;
 using HackerRankChallenges.Practice.InterviewPreparationKit.QueueAndStack;
+using LeetCodeChallenges.Arrays;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -68,7 +70,9 @@ namespace HackerRankChallenges
             //node14.ParentNode = node12;
             //node22.ParentNode = node20;
             //var result = InOrderTransverseSuccessor.GetInOrderSuccessor(node14);
-            HuffmanDecodingTree.Main();
+
+
+            MedianOfTwoSortedArrays.Main();
         }
     }
 }
