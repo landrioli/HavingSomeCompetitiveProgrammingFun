@@ -23,11 +23,11 @@ namespace CCIChallenges.RecursiveAndDynamicProgramming
             }
             else
             {
-                return countWays(n - 1) + countWays(n - 2) + countWays(n - 3);
+                return CountWays(n - 1) + CountWays(n - 2) + CountWays(n - 3);
             }
         }
 
-        //Implementantion with dynamic programming
+        //Implementantion with dynamic programming array
         public static int CountWaysDynamicProgramming(int n)
         {
             int[] map = new int[n + 1];
@@ -56,9 +56,25 @@ namespace CCIChallenges.RecursiveAndDynamicProgramming
             }
         }
 
-        public static void main(String[] args)
+        //Implementantion with dynamic programming Dictionary
+        //You are climbing a stair case. It takes n steps to reach to the top. Each time you can either climb 1 or 2 steps.In how many distinct ways can you climb to the top?
+        private static Dictionary<int, int> cache = new Dictionary<int, int>();
+        public static int ClimbStairsTwoSteps(int n)
         {
-            int n = 50;
+            if (n < 0)
+                return 0;
+            else if (n == 0)
+                return 1;
+            else if (cache.ContainsKey(n))
+                return cache[n];
+            else
+                cache[n] = ClimbStairsTwoSteps(n - 1) + ClimbStairsTwoSteps(n - 2);
+            return cache[n];
+        }
+
+        public static void Main()
+        {
+            int n = 3;
             int ways = CountWaysDynamicProgramming(n);
         }
 
