@@ -33,7 +33,7 @@ namespace CCIChallenges.Common
             }
             return matrix;
         }
-        public static bool[][] BoolMatrix(int M, int N, int percentTrue)
+        public static bool[][] BoolMatrix(int M, int N)
         {
             var matrix = new bool[M][];
             for (int i = 0; i < M; i++)

@@ -7,6 +7,11 @@ using System.Text;
 
 namespace CCIChallenges.RecursiveAndDynamicProgramming
 {
+    /*Robot in Grid
+         Robot in a Grid: Imagine a robot sitting on the upper left corner of grid with r rows and c columns.
+         The robot can only move in two directions, right and down, but certain cells are "off limits" such that
+         the robot cannot step on them. Design an algorithm to find a path for the robot from the top left to
+         the bottom right.*/
     public static class RobotInGrid
     {
         /*To find a path to (r-1, c) or (r, c -1), we need to move to one
@@ -66,7 +71,7 @@ namespace CCIChallenges.RecursiveAndDynamicProgramming
                 return false;
             }
 
-            Point p = new Point(row, col);
+            Point p = new Point(col, row);
 
             /* If we've already visited this cell, return. */
             if (failedPoints.Contains(p))
@@ -90,7 +95,7 @@ namespace CCIChallenges.RecursiveAndDynamicProgramming
         public static void Main()
         {
             int size = 1000;
-            bool[][] maze = MatrixHelper.BoolMatrix(size, size, 70);
+            bool[][] maze = MatrixHelper.BoolMatrix(7, 3);
 
             //MatrixHelper.PrintMatrix(maze);
 
