@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 namespace TestConsole
 {
     //https://www.hackerrank.com/challenges/ctci-array-left-rotation/problem
+    //Formulas to rotate array:
+    //  - RIGHT: (i + NumbRotation) % nums.length
+    //  - LEFT: i + (lengthOfArray - shiftAmount)) % lengthOfArray
     class RotateLeft
     {
         // Complete the rotLeft function below.
