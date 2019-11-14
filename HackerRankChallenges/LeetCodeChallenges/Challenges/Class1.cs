@@ -1,27 +1,14 @@
-﻿using CCI.ArrayAndStrings;
-using CCIChallenges.ArrayAndStrings;
-using CCIChallenges.BinaryTree;
-using CCIChallenges.Graph;
-using CCIChallenges.LinkedList;
-using CCIChallenges.MathAndPuzzles;
-using CCIChallenges.RecursiveAndDynamicProgramming;
-using CCIChallenges.Stack;
-using CCIChallenges.Tree;
-using GeneralChallenges;
-using GeneralChallenges.Codility;
-using HackerRankChallenges.Practice.InterviewPreparationKit.QueueAndStack;
-using LeetCodeChallenges.Arrays;
-using System;
+﻿using System;
 using System.Collections.Generic;
-using System.Diagnostics;
-using System.IO;
-using System.Linq;
 using System.Text;
-using static CCIChallenges.BinaryTree.BreadthFirstSearch;
 
-namespace HackerRankChallenges
+namespace LeetCodeChallenges.Challenges
 {
-    public class Program
+    /*You are given a matrix A consisting of N rows and M columns, where each cell contains a digit. 
+     * Your task is to find a continuous sequence of neighbouring cells, starting in the top-left corner and ending in 
+     * the bottom-right corner (going only down and right), that creates the biggest possible integer by concatenation of digits on the path. 
+     * By neighbouring cells we mean cells that have exactly one common side.*/
+    public static class BiggestIntSequence
     {
         static void Main(string[] args)
         {
@@ -35,7 +22,7 @@ namespace HackerRankChallenges
             AllParenthesisCombonations.Main();
         }
 
-        public string solution(int[][] A)
+        public string FindTheBiggestIntSequenceUsingDownRightOperations(int[][] A)
         {
             int nRows = A.Length;
             int mColumns = A[0].Length;
@@ -88,9 +75,5 @@ namespace HackerRankChallenges
             }
             Console.WriteLine();
         }
-
-
     }
-
-
 }
