@@ -6,3 +6,4 @@ D:\Workspace\HavingSomeHackerrankFun\HackerRankChallenges\LeetCodeChallenges\obj
 D:\Workspace\HavingSomeHackerrankFun\HackerRankChallenges\LeetCodeChallenges\obj\Debug\netcoreapp2.1\LeetCodeChallenges.AssemblyInfo.cs
 D:\Workspace\HavingSomeHackerrankFun\HackerRankChallenges\LeetCodeChallenges\obj\Debug\netcoreapp2.1\LeetCodeChallenges.dll
 D:\Workspace\HavingSomeHackerrankFun\HackerRankChallenges\LeetCodeChallenges\obj\Debug\netcoreapp2.1\LeetCodeChallenges.pdb
+D:\Workspace\HavingSomeHackerrankFun\HackerRankChallenges\LeetCodeChallenges\obj\Debug\netcoreapp2.1\LeetCodeChallenges.csprojAssemblyReference.cache

@@ -6,6 +6,7 @@ using CCIChallenges.LinkedList;
 using CCIChallenges.MathAndPuzzles;
 using CCIChallenges.RecursiveAndDynamicProgramming;
 using CCIChallenges.Stack;
+using CCIChallenges.SystemDesignAndScalability;
 using CCIChallenges.Tree;
 using GeneralChallenges;
 using GeneralChallenges.Codility;
@@ -25,6 +26,9 @@ namespace HackerRankChallenges
     {
         static void Main(string[] args)
         {
+            SocialNetworkDesign.Main();
+
+
             int[][] matrix = new int[4][];
             matrix[0] = new int[3] { 9, 9, 7 };
             matrix[1] = new int[3] { 9, 7, 2 };
@@ -32,7 +36,6 @@ namespace HackerRankChallenges
             matrix[3] = new int[3] { 9, 1, 2 };
             var resu = new Program().solution(matrix);
 
-            AllParenthesisCombonations.Main();
         }
 
         public string solution(int[][] A)

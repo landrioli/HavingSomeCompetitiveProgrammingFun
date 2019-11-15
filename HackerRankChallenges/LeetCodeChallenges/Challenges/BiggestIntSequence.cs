@@ -8,7 +8,7 @@ namespace LeetCodeChallenges.Challenges
      * Your task is to find a continuous sequence of neighbouring cells, starting in the top-left corner and ending in 
      * the bottom-right corner (going only down and right), that creates the biggest possible integer by concatenation of digits on the path. 
      * By neighbouring cells we mean cells that have exactly one common side.*/
-    public static class BiggestIntSequence
+    public class BiggestIntSequence
     {
         static void Main(string[] args)
         {
@@ -17,9 +17,8 @@ namespace LeetCodeChallenges.Challenges
             matrix[1] = new int[3] { 9, 7, 2 };
             matrix[2] = new int[3] { 6, 9, 5 };
             matrix[3] = new int[3] { 9, 1, 2 };
-            var resu = new Program().solution(matrix);
+            var resu = new BiggestIntSequence().FindTheBiggestIntSequenceUsingDownRightOperations(matrix);
 
-            AllParenthesisCombonations.Main();
         }
 
         public string FindTheBiggestIntSequenceUsingDownRightOperations(int[][] A)
