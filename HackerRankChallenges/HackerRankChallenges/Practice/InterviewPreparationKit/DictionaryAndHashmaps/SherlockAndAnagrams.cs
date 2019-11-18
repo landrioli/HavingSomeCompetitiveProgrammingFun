@@ -6,6 +6,14 @@ using System.Threading.Tasks;
 
 namespace TestConsole
 {
+    /*
+     Two strings are anagrams of each other if the letters of one string can be rearranged to form the other string.
+     Given a string, find the number of pairs of substrings of the string that are anagrams of each other.
+
+        PS:What's the easiest way of checking if two words are anagrams? We could count the occurrences of the
+        distinct characters in each string and return true if they match. Or, we could just sort the string. After all,
+        two words which are anagrams will look the same once they're sorted. In this case we will sort.
+         */
     public class SherlockAndAnagrams
     {
         static int SherlockAndAnagramsMethod(string s)
