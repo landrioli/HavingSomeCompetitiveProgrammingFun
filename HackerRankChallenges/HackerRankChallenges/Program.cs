@@ -28,7 +28,7 @@ namespace HackerRankChallenges
     {
         static void Main(string[] args)
         {
-            FindMissingNumberSortedArray.Main();
+            SparceSearchArrayWithEmptyStrings.Main();
             //var instance = new Program();
             //int n =3;
 
