@@ -20,6 +20,7 @@ using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Text;
+using LeetCodeChallenges.WeeklyContest;
 using static CCIChallenges.BinaryTree.BreadthFirstSearch;
 
 namespace HackerRankChallenges
@@ -28,25 +29,7 @@ namespace HackerRankChallenges
     {
         static void Main(string[] args)
         {
-            SparceSearchArrayWithEmptyStrings.Main();
-            //var instance = new Program();
-            //int n =3;
-
-            //int[] arr = new int[n];
-            //var result = new List<List<string>>();
-            //result.Add(new List<string> { "happy", "joy" });
-            //result.Add(new List<string> { "sad", "sorrow" });
-            //result.Add(new List<string> { "joy", "cheerful" });
-            //BiWeeklyContextSolutions.generateSentences(result, "I am happy today but was sad yesterday");
-            //BiWeeklyContextSolutions.NumberOfWays(6);
-            //var result = new List<List<string>>();
-            //result.Add(new List<string> { "Earth", "North America", "South America" });
-            //result.Add(new List<string> { "North America", "United States", "Canada" });
-            //result.Add(new List<string> { "United States", "New York", "Boston" });
-            //result.Add(new List<string> { "Canada", "Ontario", "Quebec" });
-            //result.Add(new List<string> { "South America","Brazil"});
-
-            //BiWeeklyContextSolutions.FindSmallestRegion(result, "Quebec", "New York");
+            new WeeklyContest165().Main();
 
         }
 
@@ -72,7 +55,7 @@ namespace HackerRankChallenges
             var result = new List<string>();
             generateAllBinaryStrings(countBitSize, arr, 0, result);
 
-        
+
             return result[2];
 
         }
@@ -140,7 +123,7 @@ namespace HackerRankChallenges
 
             return finalPhrases as IList<string>;
         }
-        
+
 
 
 
@@ -187,7 +170,7 @@ namespace HackerRankChallenges
 
 
 
-        
+
 
     }
 }
