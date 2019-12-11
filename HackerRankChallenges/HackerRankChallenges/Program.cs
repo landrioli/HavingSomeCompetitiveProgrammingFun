@@ -29,7 +29,7 @@ namespace HackerRankChallenges
     {
         static void Main(string[] args)
         {
-            new WeeklyContest165().Main();
+            new WeeklyContest166().Main();
 
         }
 

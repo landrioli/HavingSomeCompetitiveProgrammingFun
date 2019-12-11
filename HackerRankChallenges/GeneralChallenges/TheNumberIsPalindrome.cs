@@ -40,3 +40,4 @@ namespace TestConsole
             return x == revertedNumber || x == revertedNumber / 10;
         }
     }
+}
