@@ -1,0 +1,17 @@
+D:\Workspace\HavingSomeHackerrankFun\HackerRankChallenges\CCI\bin\Debug\netcoreapp2.1\CCIChallenges.deps.json
+D:\Workspace\HavingSomeHackerrankFun\HackerRankChallenges\CCI\bin\Debug\netcoreapp2.1\CCIChallenges.dll
+D:\Workspace\HavingSomeHackerrankFun\HackerRankChallenges\CCI\bin\Debug\netcoreapp2.1\CCIChallenges.pdb
+D:\Workspace\HavingSomeHackerrankFun\HackerRankChallenges\CCI\obj\Debug\netcoreapp2.1\CCIChallenges.csproj.CoreCompileInputs.cache
+D:\Workspace\HavingSomeHackerrankFun\HackerRankChallenges\CCI\obj\Debug\netcoreapp2.1\CCIChallenges.AssemblyInfoInputs.cache
+D:\Workspace\HavingSomeHackerrankFun\HackerRankChallenges\CCI\obj\Debug\netcoreapp2.1\CCIChallenges.AssemblyInfo.cs
+D:\Workspace\HavingSomeHackerrankFun\HackerRankChallenges\CCI\obj\Debug\netcoreapp2.1\CCIChallenges.dll
+D:\Workspace\HavingSomeHackerrankFun\HackerRankChallenges\CCI\obj\Debug\netcoreapp2.1\CCIChallenges.pdb
+D:\Workspace\HavingSomeHackerrankFun\HackerRankChallenges\CCI\obj\Debug\netcoreapp2.1\CCIChallenges.csprojAssemblyReference.cache
+D:\Workspace\HavingSomeCompetitiveProgrammingFun\CCI\bin\Debug\netcoreapp2.1\CCIChallenges.deps.json
+D:\Workspace\HavingSomeCompetitiveProgrammingFun\CCI\bin\Debug\netcoreapp2.1\CCIChallenges.dll
+D:\Workspace\HavingSomeCompetitiveProgrammingFun\CCI\bin\Debug\netcoreapp2.1\CCIChallenges.pdb
+D:\Workspace\HavingSomeCompetitiveProgrammingFun\CCI\obj\Debug\netcoreapp2.1\CCIChallenges.csproj.CoreCompileInputs.cache
+D:\Workspace\HavingSomeCompetitiveProgrammingFun\CCI\obj\Debug\netcoreapp2.1\CCIChallenges.AssemblyInfoInputs.cache
+D:\Workspace\HavingSomeCompetitiveProgrammingFun\CCI\obj\Debug\netcoreapp2.1\CCIChallenges.AssemblyInfo.cs
+D:\Workspace\HavingSomeCompetitiveProgrammingFun\CCI\obj\Debug\netcoreapp2.1\CCIChallenges.dll
+D:\Workspace\HavingSomeCompetitiveProgrammingFun\CCI\obj\Debug\netcoreapp2.1\CCIChallenges.pdb

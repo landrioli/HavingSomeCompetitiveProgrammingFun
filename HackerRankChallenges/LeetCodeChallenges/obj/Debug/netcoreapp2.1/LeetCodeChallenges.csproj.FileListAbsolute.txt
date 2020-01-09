@@ -1,9 +1,0 @@
-D:\Workspace\HavingSomeHackerrankFun\HackerRankChallenges\LeetCodeChallenges\bin\Debug\netcoreapp2.1\LeetCodeChallenges.deps.json
-D:\Workspace\HavingSomeHackerrankFun\HackerRankChallenges\LeetCodeChallenges\bin\Debug\netcoreapp2.1\LeetCodeChallenges.dll
-D:\Workspace\HavingSomeHackerrankFun\HackerRankChallenges\LeetCodeChallenges\bin\Debug\netcoreapp2.1\LeetCodeChallenges.pdb
-D:\Workspace\HavingSomeHackerrankFun\HackerRankChallenges\LeetCodeChallenges\obj\Debug\netcoreapp2.1\LeetCodeChallenges.csproj.CoreCompileInputs.cache
-D:\Workspace\HavingSomeHackerrankFun\HackerRankChallenges\LeetCodeChallenges\obj\Debug\netcoreapp2.1\LeetCodeChallenges.AssemblyInfoInputs.cache
-D:\Workspace\HavingSomeHackerrankFun\HackerRankChallenges\LeetCodeChallenges\obj\Debug\netcoreapp2.1\LeetCodeChallenges.AssemblyInfo.cs
-D:\Workspace\HavingSomeHackerrankFun\HackerRankChallenges\LeetCodeChallenges\obj\Debug\netcoreapp2.1\LeetCodeChallenges.dll
-D:\Workspace\HavingSomeHackerrankFun\HackerRankChallenges\LeetCodeChallenges\obj\Debug\netcoreapp2.1\LeetCodeChallenges.pdb
-D:\Workspace\HavingSomeHackerrankFun\HackerRankChallenges\LeetCodeChallenges\obj\Debug\netcoreapp2.1\LeetCodeChallenges.csprojAssemblyReference.cache
