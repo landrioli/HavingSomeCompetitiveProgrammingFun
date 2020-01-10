@@ -1,0 +1,9 @@
+D:\Workspace\HavingSomeCompetitiveProgrammingFun\UdemyMCI\bin\Debug\netcoreapp2.2\UdemyMCI.deps.json
+D:\Workspace\HavingSomeCompetitiveProgrammingFun\UdemyMCI\bin\Debug\netcoreapp2.2\UdemyMCI.dll
+D:\Workspace\HavingSomeCompetitiveProgrammingFun\UdemyMCI\bin\Debug\netcoreapp2.2\UdemyMCI.pdb
+D:\Workspace\HavingSomeCompetitiveProgrammingFun\UdemyMCI\obj\Debug\netcoreapp2.2\UdemyMCI.csprojAssemblyReference.cache
+D:\Workspace\HavingSomeCompetitiveProgrammingFun\UdemyMCI\obj\Debug\netcoreapp2.2\UdemyMCI.csproj.CoreCompileInputs.cache
+D:\Workspace\HavingSomeCompetitiveProgrammingFun\UdemyMCI\obj\Debug\netcoreapp2.2\UdemyMCI.AssemblyInfoInputs.cache
+D:\Workspace\HavingSomeCompetitiveProgrammingFun\UdemyMCI\obj\Debug\netcoreapp2.2\UdemyMCI.AssemblyInfo.cs
+D:\Workspace\HavingSomeCompetitiveProgrammingFun\UdemyMCI\obj\Debug\netcoreapp2.2\UdemyMCI.dll
+D:\Workspace\HavingSomeCompetitiveProgrammingFun\UdemyMCI\obj\Debug\netcoreapp2.2\UdemyMCI.pdb

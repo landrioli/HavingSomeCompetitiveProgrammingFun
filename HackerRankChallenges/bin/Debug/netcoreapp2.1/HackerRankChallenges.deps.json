@@ -10,7 +10,8 @@
         "dependencies": {
           "CCIChallenges": "1.0.0",
           "GeneralChallenges": "1.0.0",
-          "LeetCodeChallenges": "1.0.0"
+          "LeetCodeChallenges": "1.0.0",
+          "UdemyMCI": "1.0.0"
         },
         "runtime": {
           "HackerRankChallenges.dll": {}
@@ -29,6 +30,11 @@
       "LeetCodeChallenges/1.0.0": {
         "runtime": {
           "LeetCodeChallenges.dll": {}
+        }
+      },
+      "UdemyMCI/1.0.0": {
+        "runtime": {
+          "UdemyMCI.dll": {}
         }
       }
     }
@@ -50,6 +56,11 @@
       "sha512": ""
     },
     "LeetCodeChallenges/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UdemyMCI/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

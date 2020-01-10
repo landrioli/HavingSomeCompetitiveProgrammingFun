@@ -15,3 +15,4 @@ D:\Workspace\HavingSomeCompetitiveProgrammingFun\LeetCodeChallenges\obj\Debug\ne
 D:\Workspace\HavingSomeCompetitiveProgrammingFun\LeetCodeChallenges\bin\Debug\netcoreapp2.1\LeetCodeChallenges.deps.json
 D:\Workspace\HavingSomeCompetitiveProgrammingFun\LeetCodeChallenges\bin\Debug\netcoreapp2.1\LeetCodeChallenges.dll
 D:\Workspace\HavingSomeCompetitiveProgrammingFun\LeetCodeChallenges\bin\Debug\netcoreapp2.1\LeetCodeChallenges.pdb
+D:\Workspace\HavingSomeCompetitiveProgrammingFun\LeetCodeChallenges\obj\Debug\netcoreapp2.1\LeetCodeChallenges.csprojAssemblyReference.cache

@@ -21,6 +21,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using LeetCodeChallenges.WeeklyContest;
+using UdemyMCI.Array;
 using static CCIChallenges.BinaryTree.BreadthFirstSearch;
 
 namespace HackerRankChallenges
@@ -29,36 +30,10 @@ namespace HackerRankChallenges
     {
         static void Main(string[] args)
         {
-            RankFromStream.Main();
+            MergeSortedArrays.Main();
 
         }
 
-
-        public string Encode(int num)
-        {
-            if (num == 0)
-            {
-                return string.Empty;
-            }
-
-            int countBitSize = 1;
-            int total = 2;
-            int counter = 2;
-            while (num > counter)
-            {
-                total *= 2;
-                counter += total;
-                countBitSize++;
-            }
-
-            int[] arr = new int[countBitSize];
-            var result = new List<string>();
-            generateAllBinaryStrings(countBitSize, arr, 0, result);
-
-
-            return result[2];
-
-        }
         // Function to generate all binary strings 
         static void generateAllBinaryStrings(int n,
                                     int[] arr, int i, List<string> finalList)
@@ -87,10 +62,6 @@ namespace HackerRankChallenges
             arr[i] = 1;
             generateAllBinaryStrings(n, arr, i + 1, finalList);
         }
-
-
-
-
 
         public IList<string> GenerateSentences(List<List<string>> synonyms, string text)
         {
@@ -123,54 +94,5 @@ namespace HackerRankChallenges
 
             return finalPhrases as IList<string>;
         }
-
-
-
-
-
-        //Dictionary<string, TreeNode> hash = new Dictionary<string, TreeNode>();
-        //public string FindSmallestRegion(IList<IList<string>> regions, string region1, string region2)
-        //{
-        //    //var region1Node = new TreeNode(region1);
-        //    //var region2Node = new TreeNode(region2);
-        //    //hash.Add(region1);
-        //    //hash.Add(region2);
-        //    TreeNode previus = null;
-        //    foreach (var region in regions)
-        //    {
-        //        foreach (var local in region)
-        //        {
-        //            TreeNode node;
-        //            if (hash.ContainsKey(local))
-        //            {
-        //                node = hash[local];
-        //            }
-        //            else
-        //            {
-        //                node = new TreeNode(region2);
-        //                hash.Add(local, node);
-        //            }
-        //            if (previus != null)
-        //            {
-        //                previus.adjacents.Add(node);
-        //            }
-        //            previus = hash[local];
-        //        }
-        //    }
-
-
-        //}
-        //public class TreeNode
-        //{
-        //    public string val;
-        //    public List<TreeNode> adjacents;
-        //    public TreeNode(string x) { val = x; adjacents = new List<TreeNode>(); }
-        //}
-
-
-
-
-
-
     }
 }

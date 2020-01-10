@@ -237,6 +237,16 @@
         "runtime": {
           "bin/placeholder/LeetCodeChallenges.dll": {}
         }
+      },
+      "UdemyMCI/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "compile": {
+          "bin/placeholder/UdemyMCI.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UdemyMCI.dll": {}
+        }
       }
     }
   },
@@ -725,6 +735,11 @@
       "type": "project",
       "path": "../LeetCodeChallenges/LeetCodeChallenges.csproj",
       "msbuildProject": "../LeetCodeChallenges/LeetCodeChallenges.csproj"
+    },
+    "UdemyMCI/1.0.0": {
+      "type": "project",
+      "path": "../UdemyMCI/UdemyMCI.csproj",
+      "msbuildProject": "../UdemyMCI/UdemyMCI.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -732,7 +747,8 @@
       "CCIChallenges >= 1.0.0",
       "GeneralChallenges >= 1.0.0",
       "LeetCodeChallenges >= 1.0.0",
-      "Microsoft.NETCore.App >= 2.1.0"
+      "Microsoft.NETCore.App >= 2.1.0",
+      "UdemyMCI >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -773,6 +789,9 @@
             },
             "D:\\Workspace\\HavingSomeCompetitiveProgrammingFun\\LeetCodeChallenges\\LeetCodeChallenges.csproj": {
               "projectPath": "D:\\Workspace\\HavingSomeCompetitiveProgrammingFun\\LeetCodeChallenges\\LeetCodeChallenges.csproj"
+            },
+            "D:\\Workspace\\HavingSomeCompetitiveProgrammingFun\\UdemyMCI\\UdemyMCI.csproj": {
+              "projectPath": "D:\\Workspace\\HavingSomeCompetitiveProgrammingFun\\UdemyMCI\\UdemyMCI.csproj"
             }
           }
         }
