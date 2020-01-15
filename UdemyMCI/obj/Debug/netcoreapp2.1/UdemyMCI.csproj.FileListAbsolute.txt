@@ -7,3 +7,6 @@ D:\Workspace\HavingSomeCompetitiveProgrammingFun\UdemyMCI\obj\Debug\netcoreapp2.
 D:\Workspace\HavingSomeCompetitiveProgrammingFun\UdemyMCI\obj\Debug\netcoreapp2.1\UdemyMCI.dll
 D:\Workspace\HavingSomeCompetitiveProgrammingFun\UdemyMCI\obj\Debug\netcoreapp2.1\UdemyMCI.pdb
 D:\Workspace\HavingSomeCompetitiveProgrammingFun\UdemyMCI\obj\Debug\netcoreapp2.1\UdemyMCI.csprojAssemblyReference.cache
+D:\Workspace\HavingSomeCompetitiveProgrammingFun\UdemyMCI\bin\Debug\netcoreapp2.1\CCIChallenges.dll
+D:\Workspace\HavingSomeCompetitiveProgrammingFun\UdemyMCI\bin\Debug\netcoreapp2.1\CCIChallenges.pdb
+D:\Workspace\HavingSomeCompetitiveProgrammingFun\UdemyMCI\obj\Debug\netcoreapp2.1\UdemyMCI.csproj.CopyComplete

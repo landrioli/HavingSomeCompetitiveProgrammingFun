@@ -33,6 +33,9 @@
         }
       },
       "UdemyMCI/1.0.0": {
+        "dependencies": {
+          "CCIChallenges": "1.0.0"
+        },
         "runtime": {
           "UdemyMCI.dll": {}
         }

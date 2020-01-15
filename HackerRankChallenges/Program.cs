@@ -20,8 +20,12 @@ using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Text;
+using HackerRankChallenges.Practice.Algorithm.Implementation;
 using LeetCodeChallenges.WeeklyContest;
+using TestConsole;
 using UdemyMCI.Array;
+using UdemyMCI.Dictionary;
+using UdemyMCI.LinkedList;
 using static CCIChallenges.BinaryTree.BreadthFirstSearch;
 
 namespace HackerRankChallenges
@@ -30,13 +34,14 @@ namespace HackerRankChallenges
     {
         static void Main(string[] args)
         {
-            MergeSortedArrays.Main();
-
+            LongestPalindromeInstring.LongestPalindrome("babad");
+            //new ClimbingTheLeaderboard().climbingLeaderboard(new int[7] { 100, 100, 50, 40, 40, 20, 10 },
+            //    new int[4] { 2,25, 50, 120 });
         }
 
         // Function to generate all binary strings 
         static void generateAllBinaryStrings(int n,
-                                    int[] arr, int i, List<string> finalList)
+                                int[] arr, int i, List<string> finalList)
         {
             if (i == n)
             {
