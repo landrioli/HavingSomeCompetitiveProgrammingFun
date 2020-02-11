@@ -34,8 +34,8 @@ namespace HackerRankChallenges
     {
         static void Main(string[] args)
         {
-            ConvertIntegerToRomanNumber.IntToRoman(800);
-            LongestPalindromeInstring.LongestPalindrome("babad");
+            new WeeklyContest175().Main();
+         
             //new ClimbingTheLeaderboard().climbingLeaderboard(new int[7] { 100, 100, 50, 40, 40, 20, 10 },
             //    new int[4] { 2,25, 50, 120 });
         }
