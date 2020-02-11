@@ -7,7 +7,7 @@ namespace Test
 {
 	//https://leetcode.com/problems/generate-parentheses
 	//Given n pairs of parentheses, write a function to generate all combinations of well-formed parentheses.
-    public class GenerateParenthesis
+    public class GenerateParenthesisClass
     {
 		//To generate all sequences, we use a recursion. All sequences of length n is just '(' plus all sequences of length n-1, and then ')' plus all sequences of length n-1.
         //Time Complexity : O(2^2n * n). For each of 2^2n sequences, we need to create and validate the sequence, which takes O(n) work.
