@@ -10,7 +10,7 @@ namespace LeetCodeChallenges.Challenges
      * By neighbouring cells we mean cells that have exactly one common side.*/
     public class BiggestIntSequence
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             int[][] matrix = new int[4][];
             matrix[0] = new int[3] { 9, 9, 7 };
