@@ -12,7 +12,7 @@ namespace LeetCodeChallenges._30DaysChallengeCovid
         public ListNode(int x) { val = x; }
     }
 
-    public class DaySixMiddleOfTheLinkedList
+    public class DaySevenMiddleOfTheLinkedList
     {
         //Time Complexity: O(N) where NN is the number of nodes in the given list. | Space Complexity: O(1), the space used by slow and fast.
         //When traversing the list with a pointer slow, make another pointer fast that traverses twice as fast. When fast         //    reaches the end of the list, slow must be in the middle.

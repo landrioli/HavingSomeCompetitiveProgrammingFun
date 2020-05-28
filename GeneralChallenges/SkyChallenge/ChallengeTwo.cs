@@ -51,7 +51,7 @@ namespace GeneralChallenges.SkyChallenge
 
                 if (!dict.ContainsKey(groupKey))
                     dict.Add(groupKey, testResult);
-                else
+                else //Faço um AND pois só fica OK se for OK com OK...
                     dict[groupKey] = dict[groupKey] & testResult;
             }
 
