@@ -17,8 +17,8 @@ namespace Test
             var dict = new Dictionary<char, int>(){
                 {'M', 1000},
                 {'D', 500},
-                {'L', 50},
                 {'C', 100},
+                {'L', 50},
                 {'X', 10},
                 {'V', 5},
                 {'I', 1}

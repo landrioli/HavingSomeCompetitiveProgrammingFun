@@ -17,34 +17,11 @@ namespace GeneralChallenges.Codility
     //      The result can be achieved by covering the first building with a banner of size 5×1 and the other buildings with a banner of size 4×3:
     public class Palladium2020RectangularBuildingsBannersSize
     {
-        //O(N * max(H)) or O(N*2)
-        public int SolutionBruteForce(int[] H)
-        {
-            int bestBannerArea = int.MaxValue;
-            for (int i = 0; i < H.Length; i++)
-            {
-                var bannerOne = GetTotalSize(H, 0, i);
-                var bannerTwo = GetTotalSize(H, i + 1, H.Length - 1);
-                bestBannerArea = Math.Min(bestBannerArea, bannerOne + bannerTwo);
-            }
-
-            return bestBannerArea;
-        }
-        private int GetTotalSize(int[] buildings, int firstBuildingPosition, int lastBuildingPosition)
-        {
-            int higherBuilding = 0;
-            for (int i = firstBuildingPosition; i <= lastBuildingPosition; i++)
-            {
-                higherBuilding = Math.Max(higherBuilding, buildings[i]);
-            }
-            return higherBuilding * (lastBuildingPosition - firstBuildingPosition + 1);
-        }
-
         // HEre I pre-compute the hights from Left to right and I will use to compare the right side with the left side. (avoiding the N * N complexity)
         //O(N)
         public int SolutionOptimized(int[] A)
         {
-            if(A.Length <= 1)
+            if (A.Length <= 1)
                 return A[0];
 
             int[] B = new int[A.Length];
@@ -69,6 +46,31 @@ namespace GeneralChallenges.Codility
             }
             return min;
         }
+
+        //O(N * max(H)) or O(N*2)
+        public int SolutionBruteForce(int[] H)
+        {
+            int bestBannerArea = int.MaxValue;
+            for (int i = 0; i < H.Length; i++)
+            {
+                var bannerOne = GetTotalSize(H, 0, i);
+                var bannerTwo = GetTotalSize(H, i + 1, H.Length - 1);
+                bestBannerArea = Math.Min(bestBannerArea, bannerOne + bannerTwo);
+            }
+
+            return bestBannerArea;
+        }
+        private int GetTotalSize(int[] buildings, int firstBuildingPosition, int lastBuildingPosition)
+        {
+            int higherBuilding = 0;
+            for (int i = firstBuildingPosition; i <= lastBuildingPosition; i++)
+            {
+                higherBuilding = Math.Max(higherBuilding, buildings[i]);
+            }
+            return higherBuilding * (lastBuildingPosition - firstBuildingPosition + 1);
+        }
+
+        
 
         public void Main()
         {
