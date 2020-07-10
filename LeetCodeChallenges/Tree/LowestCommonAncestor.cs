@@ -108,5 +108,26 @@ namespace LeetCodeChallenges
             public TreeNode right;
             public TreeNode(int x) { val = x; }
         }
+
+        public void Main() {
+            var node1 = new TreeNode(1);
+            var node2 = new TreeNode(2);
+            var node3 = new TreeNode(3);
+            var node4 = new TreeNode(4);
+            var node5 = new TreeNode(5);
+            var node6 = new TreeNode(6);
+            var node7 = new TreeNode(7);
+            var node8 = new TreeNode(8);
+
+            node3.left = node5;
+            node3.right = node6;
+            node4.left = node7;
+            node4.right = node8;
+            node2.left = node3;
+            node2.right = node3;
+            node1.left = node2;
+
+            lowestCommonAncestoRecursive(node1, node6, node7);
+        }
     }
 }
