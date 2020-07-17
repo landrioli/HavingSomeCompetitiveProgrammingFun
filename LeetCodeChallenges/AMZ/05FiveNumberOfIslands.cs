@@ -14,6 +14,8 @@ namespace LeetCodeChallenges.AMZ
             11000
             00000
             == 1 Island
+
+        PLUS: The algorithm also calculates the size of each island
     */
     public class FiveNumberOfIslands
     {
@@ -29,7 +31,10 @@ namespace LeetCodeChallenges.AMZ
              */
         private readonly int[] dx = { -1, 0, 0, 1 };
         private readonly int[] dy = { 0, 1, -1, 0 };
-        private int NumIslands(char[][] grid)
+        private List<int> SizeOfEachIsland = new List<int>();
+        private int sizeCurrentIsland = 0;
+
+        private int NumIslandsAndSizeOfEach(char[][] grid)
         {
             if (grid == null || grid.Length == 0) return 0;
             int islands = 0;
@@ -39,8 +44,10 @@ namespace LeetCodeChallenges.AMZ
                 {
                     if (grid[i][j] == '1')
                     {
-                        Explore(grid, i, j);
+                        ExploreDfs(grid, i, j);
                         islands++;
+                        SizeOfEachIsland.Add(sizeCurrentIsland);
+                        sizeCurrentIsland = 0;
                     }
                 }
             }
@@ -52,9 +59,15 @@ namespace LeetCodeChallenges.AMZ
             x1000
             00000
                 */
-        private void Explore(char[][] grid, int i, int j)
+        private void ExploreDfs(char[][] grid, int i, int j)
         {
             grid[i][j] = 'x';
+            sizeCurrentIsland++;
+            // Its like a sequence:
+            // dfs(i + 1, j);
+            // dfs(i - 1, j);
+            // dfs(i, j + 1);
+            // dfs(i, j - 1);
             for (int d = 0; d < dx.Length; d++)
             {
                 if (i + dy[d] < grid.Length && 
@@ -63,7 +76,7 @@ namespace LeetCodeChallenges.AMZ
                     j + dx[d] >= 0 && 
                     grid[i + dy[d]][j + dx[d]] == '1')
                 {
-                    Explore(grid, i + dy[d], j + dx[d]);
+                    ExploreDfs(grid, i + dy[d], j + dx[d]);
                 }
             }
         }
@@ -77,10 +90,10 @@ namespace LeetCodeChallenges.AMZ
                 */
             var grid = new char[4][];
             grid[0] = new char[5] { '1', '1', '1', '1', '0' };
-            grid[1] = new char[5] { '1', '1', '0', '1', '0' };
-            grid[2] = new char[5] { '1', '1', '0', '0', '0' };
+            grid[1] = new char[5] { '1', '1', '0', '0', '0' };
+            grid[2] = new char[5] { '1', '1', '0', '1', '0' };
             grid[3] = new char[5] { '0', '0', '0', '0', '0' };
-            NumIslands(grid);
+            NumIslandsAndSizeOfEach(grid);
         }
     }
 }
