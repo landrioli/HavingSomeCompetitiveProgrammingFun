@@ -20,8 +20,8 @@ namespace LeetCodeChallenges.AMZ
          */
     public class EditDistance
     {
-        // j == x == represent the row number
         // i == y == represent the column number
+        // j == x == represent the row number
         // new int[columns][rows]; 4 columns 2 rows == [4][2]
         public int MinDistance(string word1, string word2)
         {

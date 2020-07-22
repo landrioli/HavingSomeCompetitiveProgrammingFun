@@ -5,7 +5,7 @@ using System.Text;
 
 namespace LeetCodeChallenges.AMZ
 {
-    class _00Assigment
+    public class Assigment
     {
         public List<int> lengthEachScene(List<char> inputList)
         {
@@ -23,7 +23,7 @@ namespace LeetCodeChallenges.AMZ
             var results = new List<int>();
             for (int i = 0; i < inputList.Count; i++)
             {
-                last = Math.Max(last, dict[inputList[i]]);
+                last = Math.Max(last, dict[inputList[i]]); // Each iteration I need to check if there are another letter that need to be used as last
                 if (last == i)
                 {
                     results.Add(last - first + 1);
@@ -75,7 +75,7 @@ namespace LeetCodeChallenges.AMZ
 
         public void Main()
         {
-            lengthEachScene(new List<char>() { 'a', 'b', 'c', 'a', 'd' });
+            lengthEachScene(new List<char>() { 'a', 'b', 'c', 'a', 'b', 'd' });
         }
     }
 }
