@@ -80,7 +80,6 @@ namespace LeetCodeChallenges.AMZ
         public void Main()
         {
             IsInterleave("aabcc", "dbbca", "aadbbcbcac");
-            AreInterwoven("aabcc", "dbbca", "aadbbcbcac");
         }
     }
 }

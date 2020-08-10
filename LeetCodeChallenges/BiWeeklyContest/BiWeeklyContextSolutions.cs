@@ -47,10 +47,12 @@ namespace LeetCodeChallenges.BiWeeklyContext
             {
                 for (int i = 1; i < region.Count; i++)
                 {
-                    map[region[i]] = region[0];
+                    var ancestorRegion = region[0];
+                    var childRegion = region[i];
+                    map[childRegion] = ancestorRegion;
                 }
             }
-            var hash = new HashSet<String>();
+            var hash = new HashSet<String>(); // Here we will add the order from region to the biggest ancestor
             while (region1 != null)
             {
                 hash.Add(region1);
@@ -63,7 +65,7 @@ namespace LeetCodeChallenges.BiWeeklyContext
                     region1 = null;
                 }
             }
-            while (!hash.Contains(region2))
+            while (!hash.Contains(region2)) 
             {
                 region2 = map[region2];
             }
