@@ -34,6 +34,33 @@ namespace LeetCodeChallenges.AMZ
             return dp[s1.Length][s2.Length];
         }
 
+        public bool IsInterleaveRecursive(string s1, string s2, string s3)
+        {
+            return AreInterwovenRecursive(s1, s2, s3, 0, 0);
+        }
+
+
+        public bool AreInterwovenRecursive(string s1, string s2, string s3, int i, int j)
+        {
+            int k = i + j;
+
+            if (k == s3.Length && i == s1.Length && j == s2.Length)
+                return true;
+
+            if (i < s1.Length && k < s3.Length && s1[i] == s3[k])
+            {
+                if (AreInterwovenRecursive(s1, s2, s3, i + 1, j))
+                    return true;
+            }
+
+            if (j < s2.Length && k < s3.Length && s2[j] == s3[k])
+            {
+                return AreInterwovenRecursive(s1, s2, s3, i, j + 1);
+            }
+
+            return false;
+        }
+
         //BUGGED
         //public bool AreInterwoven(string one, string two, string three) {
         //    var cache = new bool?[two.Length + 1][];
