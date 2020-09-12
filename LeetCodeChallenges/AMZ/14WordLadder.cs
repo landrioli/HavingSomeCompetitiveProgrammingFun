@@ -18,7 +18,7 @@ namespace LeetCodeChallenges.AMZ
                 for (int q = 0; q < size; q++)
                 {
                     char[] cur = queue.Dequeue().ToCharArray();
-                    int initNumberOfOptions = queue.Count;
+                    //int initNumberOfOptions = queue.Count; remive
                     // I will search for all the positions of the word and replace one by one tring to find a respctive match in the dictionary
                     for (int i = 0; i < cur.Length; i++)
                     {

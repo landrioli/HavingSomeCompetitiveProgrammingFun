@@ -53,4 +53,5 @@ namespace LeetCodeChallenges.AMZ
             next = _next;
         }
     }
+
 }
